@@ -60,7 +60,7 @@ EveBox is used to visualize Suricata alerts through a web dashboard.
 sudo apt install evebox
 
 ### Start EveBox Server
-sudo evebox server --host 0.0.0.0 --port 5636 --datastore sqlite --database /var/lib/evebox/evebox.db --input /var/log/suricata/eve.json
+sudo evebox server --host 0.0.0.0 --port 5636 --datastore sqlite --input /var/log/suricata/eve.json
 
 ### Access the Dashboard
 Open your browser and navigate to:

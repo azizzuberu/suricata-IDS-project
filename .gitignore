@@ -1,0 +1,19 @@
+# Suricata logs
+*.log
+eve.json
+fast.log
+stats.log
+
+# Packet captures
+*.pcap
+*.pcapng
+
+# EveBox database
+evebox.db
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS files
+.DS_Store
